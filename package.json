@@ -7,7 +7,7 @@
     "serve": "node ./bin/www",
     "build": "yarn build-css",
     "dev": "yarn build-css && cross-env DEBUG=github-env-manager:* NODE_ENV=development yarn serve",
-    "build-css": "cross-env node_modules/postcss-cli/bin/postcss -c postcss.config.js public/css/style.css -o public/css/style.css"
+    "build-css": "cross-env node_modules/postcss-cli/bin/postcss -c postcss.config.js public/css/tailwind.css -o public/css/style.css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
